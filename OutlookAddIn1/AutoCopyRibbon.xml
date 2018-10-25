@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+  <ribbon>
+    <tabs>
+      <tab idMso="TabAddIns">
+        <group id="ContentGroup" label="Content">
+          <checkBox id="togglebox" label="Enable Auto Copy"
+               screentip="Toggle the auto copy function" onAction="EnableAutoCopy"  getPressed="OnLoaded"
+               supertip="Copies the text from the last sent email into the clipboard."/>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
+
